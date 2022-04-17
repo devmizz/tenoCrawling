@@ -80,3 +80,4 @@ fabric.properties
 /dist
 /build
 center.spec
+.idea
