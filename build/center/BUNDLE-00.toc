@@ -1,0 +1,3 @@
+([('center',
+   '/Users/chanki/Desktop/programming/tenoCrawling/dist/center',
+   'EXECUTABLE')],)
