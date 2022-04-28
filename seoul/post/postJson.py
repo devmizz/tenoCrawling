@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = "http://ec2-13-124-189-245.ap-northeast-2.compute.amazonaws.com:8080/courts"
+url = "ec2-3-36-137-100.ap-northeast-2.compute.amazonaws.com:8080/courts"
 
 
 def post_json(json_data):
