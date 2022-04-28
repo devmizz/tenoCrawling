@@ -30,4 +30,6 @@ for center in centerInfo.centerList :
     postJson.post_json(sorted(parsing(driver, page_count, center.get('before_char'), center.get('after_char')
                                       , center.get('search_index')), key=itemgetter('court', 'possibleTimeTable')))
 
+    print(centerInfo.centerList.index(center) + 1, "/", len(centerInfo.centerList), "(", center.get('search_index'), ")")
+
     driver.quit()
